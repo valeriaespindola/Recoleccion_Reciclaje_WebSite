@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    background-color: rgba(254, 255, 255, 0.438);
+
+
+}
+
+.foto1{
+    
+    height: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,121,9,0.8491771708683473) 35%);
+    padding: 10px;
+}
+
+.primer-parrafo{
+    color:rgb(15, 15, 15);
+    padding: 10px;
+    text-align: justify;
+}
