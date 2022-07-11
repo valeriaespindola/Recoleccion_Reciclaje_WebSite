@@ -1,89 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scal e=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>RecoBahia</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
 
-  <body>
-    <header class="header">
-      <img
-        src="img/logo_sin_fondo.png"
-        height="250"
-        width="400"
-        alt="logotipo"
-      />
-      <nav>
-        <ul class="nav__lista">
-            <li class="nav__item">
-                <a class="nav__enlace" href="index.html">Inicio</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__enlace" href="Reciclamos.html">¿Reciclamos?</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__enlace" href="ubicacion.html">Ubicacion</a>
-            </li>
-        </ul>
-      </nav>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " >
+                <div class="container-fluid">
+                    <img src="img/logo2.png" alt="" width="400" height="100">
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                        <a class="nav-link" href="reciclamos.html">¿RECICLAMOS?</a>
+                        <a class="nav-link" href="ubicacion.html">UBICACION</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="main">
-      <h1 class="titulo-principal">¿A que nos dedicamos?</h1>
-      <section class="foto1">
-        <div class="primer-parrafo">
-          <p>
-                <strong>Nos dedicamos <br>a la
-                <span class="texto-resaltado">recolecciòn de basura</span> con
-                seguimientos gps. <br>Trabajamos <br>para tratar de
-                concientizar <br>
-                a la gente sobre la clasificacion de basura <br>
-                y reducir el colapso de rellenos sanitarios.<br>
-                Ayudamos<br>
-                a nuestra planeta tierra a tener<br>una capa de ozono mas
-                limpia<br>
-                <span class="texto-resaltado">y evitar tantos cambios climaticos <br>que la madre naturaleza a veces nos hace saber.</span></strong>
-          </p>
-        </div>
-      </section>
-      <section class="section3">
-        <div class="sumate-a-nosotros">
-          <h3>Sumate a nosotros<br></h3>
-          <h3>.....Vos tambien sos parte de esta misión, RECICLEMOS...</h3>
-        </div>
-        <div class="podadores">
-        <h2><strong>Horarios de recoleccion</strong></h2>
-        <h3></h3>
-        </div>
-    </section>
-    <section >
-            <h3 class="titulo-video-index">Por favor mira el siguiente video..... solo te tomará menos de 5 minutos</h3>
-            <iframe class="video-index"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/UEkh47qyk6k"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-            ></iframe>
-    </section>
-    <h3 class="objetivo-titulo">Nuestro objetivo</h3>
-    <div>
-    <p class="objetivo-parrafo">
-        LLegar a poder ser la primera ciudad con mayor recoleccion del pais,
-        sin ningun costo, solo la voluntad de cada uno y ser compensado/a con
-        abono para plantas, poda de arboles y descuentos en tasas municipales.
-    </p>
-    </div>
+
+    <main>
+        <section class="carrusel">
+            <div class="container-fluid p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/foto de reciclaje.jpg" class="d-block w-100" alt="reciclaje1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>¿A que nos dedicamos?</h2>
+                                <h4>Nos dedicamos a la recolecciòn de basura con seguimientos gps.</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/reciclar.jpg" class="d-block w-100" alt="reciclaje2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Trabajamos
+                                    para tratar de concientizar
+                                    a la gente sobre la clasificacion de basura
+                                    y reducir el colapso de rellenos sanitarios.</h2>
+                                
+                            </div>
+                        </div>
+                    <div class="carousel-item">
+                        <img src="img/presentacion2.png" class="d-block w-100" alt="app reciclaje">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container cards">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card" style="max-width: 600px;">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="img/COMPACTADOR.jpg" class="img-fluid rounded-start" alt="compactador horarios">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">HORARIOS DE RECOLECCION</h4>
+                                    <p class="card-text">Aquí podras tener a mano los horarios de recoleccíon de residuos en tu barrio.</p>
+                                    <p class="card-text"><small class="text-muted">Ultima actualización 02/02/2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card" style="max-width: 600px;">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="img/recolectando.jpg" class="img-fluid rounded-start img_recolecta" alt="recolector sumate">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">SUMATE A NOSOTROS</h4>
+                                    <p class="card-text">.....Vos tambien sos parte de esta misión, RECICLEMOS....</p>
+                                    <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
     <footer class="footer">
-        <h3>Seguinos en las redes</h3>
-        <h4>
-            © Copyright 2022 - Todos los Derechos Reservados - Valeria Espindola
-        </h4>
+        <p>SEGUINOS EN LAS REDES - © COPYRIGHT 2022 - TODOS LOS DERECHOS RESERVADOS - VALERIA ESPINDOLA</p>
+
     </footer>
-    </body>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        
+</body>
 </html>

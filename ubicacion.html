@@ -5,49 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ubicacion.css">
     <title>Ubicacion</title>
 </head>
 
 <body>
-    <header class="header">
-        <img
-          src="img/logo_sin_fondo.png"
-          height="250"
-          width="400"
-          alt="logotipo"
-        />
-        <nav>
-          <ul class="nav__lista">
-            <li class="nav__item">
-              <a class="nav__enlace" href="index.html">Inicio</a>
-            </li>
-          
-  
-            <li class="nav__item">
-              <a class="nav__enlace" href="Reciclamos.html">¿Reciclamos?</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__enlace" href="ubicacion.html">Ubicacion</a>
-            </li>
-          </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg " >
+                <div class="container-fluid">
+                    <img src="img/logo2.png" alt="" width="400" height="100">
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                            <a class="nav-link" href="reciclamos.html">¿RECICLAMOS?</a>
+                            <a class="nav-link" href="ubicacion.html">UBICACION</a>
+                        </div>
+                    </div>
+                </div>
         </nav>
-      </header>
+    </header>
     <main class="main">
         <section class="titulo-ubicacion">
-            <h3>Aca podemos ver los recolectores y lugares para reciclar</h3>
+            <h3>Recolectores y Lugares para Reciclar</h3>
         </section>
+        
         <iframe class="mapa"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24905.473198496446!2d-62.24453225!3d-38.7135809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1652049895640!5m2!1ses-419!2sar"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+        <section class="titulo-ubicacion">
+            <h3>Dejá tu Mensaje u Opinión</h3>
+        </section>
+
+        <section class="formulario">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccioná tu Barrio</option>
+                <option value="1">Centro</option>
+                <option value="2">Villa Mitre</option>
+                <option value="3">Pedro Pico</option>
+                <option value="4">San Martín</option>
+                <option value="5">Universitario</option>
+                <option value="6">Patagonia</option>
+                <option value="7">Spurr</option>
+                <option value="8">Ing. White</option>
+                <option value="9">Villa Rosas</option>
+                <option value="10">Santa Margarita</option>
+                <option value="11">Noroeste</option>
+                <option value="12">Milla Mapu</option>
+                <option value="13">La Falda</option>
+                <option value="14">Bella Vista</option>
+                <option value="15">Tiro Federal</option>
+                <option value="16">Macro Centro</option>
+                <option value="17">Altos de Independencia</option>
+                <option value="18">Sanchez Elias</option>
+                <option value="19">Otros</option>
+            </select>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentario u Opinión</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="button" class="btn btn-success">Enviar</button>
+            </div>
+
+        </section>
+
 
     </main>
     <footer class="footer">
-        <h3>Seguinos en las redes</h3>
-        <h4>© Copyright 2022 - Todos los Derechos Reservados - Valeria Espindola</h4>
+        <p>SEGUINOS EN LAS REDES - © COPYRIGHT 2022 - TODOS LOS DERECHOS RESERVADOS - VALERIA ESPINDOLA</p>
     </footer>
+            <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        
 
 </body>
 

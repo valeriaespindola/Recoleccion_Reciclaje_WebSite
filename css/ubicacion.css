@@ -1,0 +1,33 @@
+/*RESETEO LOS VALORES DE DEFAULT QUE VIENEN CON CADA NAVEGADOR*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* RESETEO EL COLOR DE DEFAULT QUE VIENE CON CADA NAVEGADOR*/
+a{
+    color: inherit;
+}
+.main{
+    min-height: 100vh;
+}
+.titulo-ubicacion{
+    margin-left: 650px;
+    margin-top: 30px ;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.mapa{
+    margin-left: 300px;
+    width: 1200px;
+    border-radius: 2rem;
+}
+.formulario{
+    font-size: 2rem;
+    max-width: 600px;
+    margin-left: 550px;
+}
+.form-select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

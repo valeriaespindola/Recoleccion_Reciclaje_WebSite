@@ -1,0 +1,33 @@
+/*RESETEO LOS VALORES DE DEFAULT QUE VIENEN CON CADA NAVEGADOR*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* RESETEO EL COLOR DE DEFAULT QUE VIENE CON CADA NAVEGADOR*/
+a{
+    color: inherit;
+}
+.reciclamos_page{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+    
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+}
+.texto_navbar{
+    font-size: 1.5rem;
+}
+.titulo-video-reciclar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.video_reciclo{
+    height: 550px;
+    margin:50px;
+}
