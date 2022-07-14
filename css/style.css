@@ -1,123 +1,156 @@
 /*RESETEO LOS VALORES DE DEFAULT QUE VIENEN CON CADA NAVEGADOR*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 /* RESETEO EL COLOR DE DEFAULT QUE VIENE CON CADA NAVEGADOR*/
-a{
+a {
     color: inherit;
 }
-.main{
+.main {
     min-height: 100vh;
 }
-.link-navbar{
+.link-navbar {
     padding-right: 20px;
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: darkgreen;
-    
 }
-.link-navbar:hover{
+.link-navbar:hover {
     color: darkgrey;
 }
-.carousel-item img{
-    height: 780px;
-    object-fit:cover;
+.nos-dedicamos{
+    color:white;
 }
-.container-fluid{
+.carousel-item img {
+    height: 780px;
+    object-fit: cover;
+}
+.container-fluid {
     overflow: hidden;
 }
-
-.container-cards{
+.trabajamos {
+    color: black;
+}
+.img-compactador{
+    height: 290px;
+}
+.container-cards {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
-
 }
 
-.card-title{
+.card-title {
     text-align: center;
     margin-bottom: 30px;
 }
-.card-text{
+.card-text {
     text-align: center;
     color: darkgreen;
     font-weight: bold;
     font-size: 1.3rem;
 }
-
-
-.footer{
-    background-color: rgba(17,153,44,0.9528186274509804);
-    font-family: 'Roboto', sans-serif;
+.position-fixed {
+    background-color: green;
+    color: white;
+    font-size: 28px;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    border-radius: 100%;
+    text-decoration: none;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:#0df053;
+    background-color: #fff;
+}
+.jam-whatsapp:before{
+    color:white;
+}
+.footer {
+    background-color: rgba(17, 153, 44, 0.9528186274509804);
+    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     margin-top: 10px;
     text-align: center;
-    
+}
+.copyright{
+    margin-bottom: 0;
 }
 /* Medias Querys*/
 
-@media (max-width:600px) {
-    .logo_navbar{
+@media (max-width: 600px) {
+    .logo_navbar {
         align-items: center;
         margin: auto;
         width: 200px;
         height: 50px;
     }
-    .link-navbar{
+    .link-navbar {
         margin-right: 1px !important;
         font-size: 0.7rem !important;
         color: darkgreen;
     }
-    .link-navbar:hover{
+    .link-navbar:hover {
         color: black;
     }
-    .fotos_carousel{
+    .fotos_carousel {
         width: auto;
         height: 180px !important;
         object-fit: cover;
     }
-    .card{
+    .card {
         margin-left: 10px;
     }
-    .cards{
+    .cards {
         margin-top: 0;
         margin-left: 0;
     }
-    .row>*{
+    .row > * {
         padding-right: 0;
         padding-left: 0;
     }
-    .card-title{
+    .card-title {
         font-size: 1.1rem;
         text-align: center;
     }
-    .card-text{
+    .card-text {
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
     }
-    .img-compactador .img-recolecta{
+    .text-muted{
+        font-size: 0.8rem;
+    }
+    .img-compactador .img-recolecta {
         height: 150px;
         width: 100%;
         object-fit: cover;
     }
-    .footer{
+    .footer {
         font-size: 0.8rem;
         margin-top: 5px;
         margin-bottom: 0;
     }
-    .aprender{
+    .position-fixed{
+        font-size: 15px;
+    }
+    
+    .aprender {
         font-size: 1rem;
     }
-    .lista-aprender{
+    .lista-aprender {
         font-size: 0.9rem;
     }
-    .info-vecinos{
+    .info-vecinos {
         font-size: 1rem;
         text-align: center;
     }
-    .parrafo_vecinos{
+    .parrafo_vecinos {
         font-size: 0.9rem;
     }
     .titulo-video-reciclar {
@@ -127,39 +160,36 @@ a{
         text-align: center;
         font-size: large;
     }
-    iframe, video {
+    iframe,video {
         height: 250px !important;
-        width: 100% ;
+        width: 100%;
         object-fit: cover;
         margin-left: 2px !important;
         margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
-    .titulo-ubicacion{
+    .titulo-ubicacion {
         font-size: 1rem;
         text-align: center;
     }
-    .mapa{
+    .mapa {
         width: 98% !important;
     }
-    .formulario{
+    .formulario {
         margin-left: 5px !important;
         margin-right: 5px !important;
     }
     .form-label {
         font-size: 1rem !important;
     }
-    .form-select{
+    .form-select {
         font-size: 0.8rem !important;
     }
-    .form-control{
+    .form-control {
         font-size: 0.8rem;
     }
-    .btn-formulario{
+    .btn-formulario {
         margin-left: 120px !important;
         font-size: 1rem !important;
-    
-   }
-
-        
+    }
 }
