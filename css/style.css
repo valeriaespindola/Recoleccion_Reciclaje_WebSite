@@ -8,11 +8,18 @@
 a{
     color: inherit;
 }
-.navbar{
+.main{
+    min-height: 100vh;
+}
+.link-navbar{
     padding-right: 20px;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
+    color: darkgreen;
     
+}
+.link-navbar:hover{
+    color: darkgrey;
 }
 .carousel-item img{
     height: 780px;
@@ -21,24 +28,138 @@ a{
 .container-fluid{
     overflow: hidden;
 }
-.cards{
-    padding:30px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-    margin 30px;
-    justify-content: space-between;
+
+.container-cards{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+
 }
-.img_recolecta{
-    height: 100%;
-    width: 100% !important;
-    padding-left: 0 !important;
+
+.card-title{
+    text-align: center;
+    margin-bottom: 30px;
 }
+.card-text{
+    text-align: center;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
 .footer{
     background-color: rgba(17,153,44,0.9528186274509804);
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     text-align: center;
     
+}
+/* Medias Querys*/
+
+@media (max-width:600px) {
+    .logo_navbar{
+        align-items: center;
+        margin: auto;
+        width: 200px;
+        height: 50px;
+    }
+    .link-navbar{
+        margin-right: 1px !important;
+        font-size: 0.7rem !important;
+        color: darkgreen;
+    }
+    .link-navbar:hover{
+        color: black;
+    }
+    .fotos_carousel{
+        width: auto;
+        height: 180px !important;
+        object-fit: cover;
+    }
+    .card{
+        margin-left: 10px;
+    }
+    .cards{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .row>*{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .card-title{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .card-text{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .img-compactador .img-recolecta{
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .footer{
+        font-size: 0.8rem;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .aprender{
+        font-size: 1rem;
+    }
+    .lista-aprender{
+        font-size: 0.9rem;
+    }
+    .info-vecinos{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .parrafo_vecinos{
+        font-size: 0.9rem;
+    }
+    .titulo-video-reciclar {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        text-align: center;
+        font-size: large;
+    }
+    iframe, video {
+        height: 250px !important;
+        width: 100% ;
+        object-fit: cover;
+        margin-left: 2px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .titulo-ubicacion{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .mapa{
+        width: 98% !important;
+    }
+    .formulario{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    .form-label {
+        font-size: 1rem !important;
+    }
+    .form-select{
+        font-size: 0.8rem !important;
+    }
+    .form-control{
+        font-size: 0.8rem;
+    }
+    .btn-formulario{
+        margin-left: 120px !important;
+        font-size: 1rem !important;
+    
+   }
+
+        
 }

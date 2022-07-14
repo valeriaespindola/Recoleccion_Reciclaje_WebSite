@@ -8,14 +8,14 @@
 a{
     color: inherit;
 }
-.main{
+main{
     min-height: 100vh;
 }
 .titulo-ubicacion{
-    margin-left: 650px;
     margin-top: 30px ;
     font-size: 2rem;
     margin-bottom: 30px;
+    text-align: center;
 }
 .mapa{
     margin-left: 300px;
@@ -27,7 +27,8 @@ a{
     max-width: 600px;
     margin-left: 550px;
 }
-.form-select{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+.btn-formulario{
+    margin-left: 260px;
+    align-items: center;
+    font-size: 2rem !important;
+
